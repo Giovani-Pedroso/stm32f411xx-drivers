@@ -1,0 +1,16 @@
+#+title:Drivers creation
+
+This project have the main goal to teach how to create drivers to the microcontroller STM32F411 
+
+* The floder creation 
+
+	First create a folder drives in the main directory of the project, inside this folder create more two folders: Src witch will store the source files; and the Inc 
+	folder witch will store the include files, now click with the mouse right button on the drives folder select proprieties then go to the c/c++ build and uncheck
+	the exclude the resource from build, click apply then apply and close.
+
+** How include the folder in the build configuration
+
+	 Right click the project select proprieties, go to C/C++ -> settings, select the MCU GCC compiler->Include paths, click in the icon with the sheet paper with the 
+	 add sign, it will open a new window, click in the workspace then select the folder drivers/Inc, click ok then apply and finally apply and close.
+
+
